@@ -32,7 +32,7 @@ public class WeatherForecastController : ControllerBase
     }
 }
 ```
-**Q. What is ConfigurationManager?**
+**Q. What is ConfigurationManager?**\
 A collection of configuration providers for the web application to compose. This is useful to add new configuration sources and providers. 
 ConfigurationManager configManager = builder.Configuration;
 For example,
